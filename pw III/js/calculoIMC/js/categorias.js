@@ -1,0 +1,6 @@
+export const baixoPeso = []
+export const normalPeso = []
+export const sobrePeso = []
+export const obesidadeGraulI = [] 
+export const obesidadeGraulII = [] 
+export const obesidadeGraulIII = [] 
