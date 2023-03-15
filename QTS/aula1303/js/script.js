@@ -6,7 +6,7 @@ const urlParams = new URLSearchParams(queryString);
 
 const nome = urlParams.get('nome')
 const CPF = urlParams.get('CPF')
-let rendimento = urlParams.get('rendimento')
+const rendimento = urlParams.get('rendimento')
 
 // PEGANDO DADOS PARA MANIPULAÇÃO
 const inputNome = document.getElementById("nome")
@@ -40,14 +40,14 @@ else if ( rendimento > 55976.16 ) {
 }
 
 
-let imposto = (aliquota/100)*rendimento;
+const imposto = (aliquota/100)*rendimento;
+const resRendimento = Number(rendimento)
 
 
 // EXIBINDO DADOS
 inputNome.textContent = nome
 inputCPF.textContent = CPF
-inputRendimento.textContent = rendimento
+inputRendimento.textContent = resRendimento.toFixed(2).replace('.', ',')
 inputAliquota.textContent = aliquota
-inputImposto.textContent = imposto
+inputImposto.textContent = imposto.toFixed(2).replace('.', ',')
 
-console.log(aliquota)
