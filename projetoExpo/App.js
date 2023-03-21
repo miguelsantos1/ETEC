@@ -1,5 +1,5 @@
 import { LinearGradient} from 'expo-linear-gradient'
-;import { StatusBar } from 'expo-status-bar';
+import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View, TextInput, TouchableOpacity, Image} from 'react-native';
 import InputEmail from './src/components/Input/InputEmail';
