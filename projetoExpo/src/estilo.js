@@ -52,6 +52,9 @@ const estilo = StyleSheet.create({
         image: {
             height: 300,
             width: 300,
+            borderRadius: 200,
+            
+
         }
 
 
