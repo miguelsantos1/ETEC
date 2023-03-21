@@ -10,6 +10,7 @@ import { Ionicons } from '@expo/vector-icons'
 import estilo from './src/estilo';
 
 import Header from './src/components/header';
+import Footer from './src/components/footer';
 
  export default function App() { 
   return ( 
@@ -40,6 +41,8 @@ import Header from './src/components/header';
 
 
             </TouchableOpacity>
+
+            <Footer />
 
           </View>  
 
