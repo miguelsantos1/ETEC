@@ -23,7 +23,6 @@ main h1, h2 {
 main h1, main h2, main h3 {
     padding: 10px 0;
     margin: 2rem 0;
-    letter-spacing: 1px;
     font-size: 2.2rem;
     color:rgba(0, 0, 0, 0.695);
     font-weight: 800;
