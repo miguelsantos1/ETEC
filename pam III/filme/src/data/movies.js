@@ -59,6 +59,6 @@ const DATA = [
         id: '10',
         name: "Corra!",
         feedback: '8.8',
-        image: 'adão.png'
+        image: 'corra.png'
     }
 ]
