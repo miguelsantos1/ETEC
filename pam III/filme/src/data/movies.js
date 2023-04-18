@@ -62,3 +62,5 @@ const DATA = [
         image: 'corra.png'
     }
 ]
+
+export default DATA
