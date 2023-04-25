@@ -20,10 +20,17 @@ export default function App() {
       
       <FlatList 
       horizontal={true}
+      showsHorizontalScrollIndicator = {false}
       data={Films}
       keyExtractor = {(item) => item.id }
       renderItem = { ({item}) => (
-        <CardFilms />
+
+        <CardFilms 
+        title = {item.name}
+        feedback = {item.feedback}
+        image = {item.image}
+        />
+        
       ) }
 
       />

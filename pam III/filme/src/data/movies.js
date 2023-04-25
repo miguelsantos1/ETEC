@@ -1,5 +1,3 @@
-
-
 const DATA = [
     {
         id: '01',
@@ -29,37 +27,37 @@ const DATA = [
         id: '05',
         name: "IT - A Coisa",
         feedback: '8.8',
-        image: 'itacoisa.png'
+        image: '7.png'
     },
     {
         id: '06',
         name: "(500) Dias com Ela",
         feedback: '8.8',
-        image: '500diascomela.png'
+        image: '5.png'
     },
     {
         id: '07',
         name: "Uncharted: Fora do Mapa",
         feedback: '8.8',
-        image: 'uncharted.png'
+        image: '8.png'
     },
     {
         id: '08',
         name: "Whiplash: Em Busca da Perfeição",
         feedback: '8.8',
-        image: 'whiplash.png'
+        image: '9.png'
     },
     {
         id: '09',
         name: "Adão Negro",
         feedback: '8.8',
-        image: 'adão.png'
+        image: '4.png'
     },
     {
         id: '10',
         name: "Corra!",
         feedback: '8.8',
-        image: 'corra.png'
+        image: '6.png'
     }
 ]
 
