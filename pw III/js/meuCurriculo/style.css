@@ -68,9 +68,10 @@ aside {
     display: flex;
     justify-content: center;
     background: var(--lightBlue);
-    padding: 2rem 4rem;
-    width: 60%;
-    height: 100%;
+    padding: 1rem 4rem;
+    width: 40%;
+    height: 110vh;
+    align-items: center;
 
 }
 aside img {
