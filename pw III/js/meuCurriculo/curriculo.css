@@ -23,8 +23,8 @@ body {
 
 main {
     display: grid;
-    grid-template-columns: 1fr .5fr;
-    gap: 4rem; 
+    grid-template-columns: 4fr 1fr;
+    gap: 2rem; 
 
     background-color: white;
     width: 700px;
@@ -73,4 +73,37 @@ ul {
 
 #print:hover {
     color: rgba(0, 0, 0, 0.692);
+}
+
+.no-display {
+    display: none;
+}
+
+
+.warning {
+    background-color: white;
+    padding: 2rem 4rem;
+    border-radius: 5px;
+    margin: 0 1rem;
+}
+
+.warning h1 {
+    margin-bottom: 1rem;
+    color: var(--lightBlue);
+    padding: 0.4rem 0;
+    border-bottom: 4px solid var(--lightBlue);
+}
+
+.warning p {
+    font-size: 1.4rem;
+}
+
+.warning a {
+    color: #07113daf;
+    transition: .5s;
+}
+
+.warning a:hover {
+    color: var(--darkBlue);
+    transition: .5s;
 }

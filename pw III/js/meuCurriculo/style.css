@@ -45,23 +45,55 @@ form {
     width: 30vw;
 }
 
-form input[type="text"] {
+form input[type="text"], [type="number"], [type="email"], form textarea {
     border: none;
     padding: 1.2rem 0rem;
     background: transparent;
     border-bottom: 1px solid var(--darkBlue);
     font-size: 1rem;
     font-weight: 900;
+    width: 100%;
+    text-transform: uppercase;
 }
 
-form input:focus {
+select {
+    border-radius: 5px;
+    margin-top: 1rem;
+    padding: .8rem .8rem;
+    background: transparent;
+    font-size: .8rem;
+    font-weight: 900;
+    width: 100%;
+    text-transform: uppercase;
+    margin-bottom: -1rem;
+}
+
+form input:focus, form textarea:focus, form select {
     outline: none;
 }
 
-form input::placeholder {
-    color: var(--darkBlue);
+form input::placeholder, form textarea::placeholder, option {
+    color: #07113d96;
     font-size: 1.3rem;
     font-weight: 900;
+    text-transform: capitalize;
+}
+
+form textArea {
+    padding: .5rem 0;
+}
+
+
+form div {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+}
+
+form h3 {
+    color: var(--darkBlue);
+    font-size: 1.4rem;
+    margin-bottom: -2.5rem;
 }
 
 aside {
@@ -70,7 +102,7 @@ aside {
     background: var(--lightBlue);
     padding: 1rem 4rem;
     width: 40%;
-    height: 110vh;
+    height: 100vh;
     align-items: center;
 
 }

@@ -22,20 +22,35 @@
 
             <h2>Gerar currículo</h2>
 
-            <input type="text" name="nomeCompleto" placeholder="Nome completo">
-            <input type="text" name="resumo" placeholder="Resumo">
-            <input type="text" name="phone" placeholder="Telefone">
-            <input type="text" name="email" placeholder="Email">
-            <input type="text" name="location" placeholder="Localização">
+            <input type="text" name="nomeCompleto" placeholder="Nome completo" required>
+            <div>
+                <input type="number" name="phone" placeholder="Telefone" required>
+                <input type="email" name="email" placeholder="Email" required>
+            </div>
 
+            <textarea type="text" name="resumo" placeholder="Resumo"></textarea required>
+                
+              <h3>Formação</h2>
+                <div>
+                    <input name="anoInstituicao" placeholder="Ano" type="number" required>
+                    <input name="instituicao" placeholder="Instituição" type="text" required>
+                </div>
+
+              <h3>Habilidades</h2>
+                <textArea name="habilidades" placeholder="Proativo, pontual..." required></textArea>
             
+                    <h3> Idioma </h3>
+                    <select name="idioma" required>
+                        <option value="ingles">Inglês</option>
+                        <option value="espanhol">Espanhol</option>
+                        <option value="semIdioma">Sem Idioma</option>
+                    </select>
+                
+            <input type="text" name="cargoDesejado" placeholder="Cargo desejado" required>
 
-            <input type="text" name="formacao" placeholder="Formação">
-            <input type="text" name="experienciaProfissional" placeholder="Experiência profissional">
-            <input type="text" name="habilidades" placeholder="Habilidades">
-            <input type="text" name="idiomas" placeholder="Idiomas">
-            <input type="text" name="phone" placeholder="Telefone">
-            <input type="submit" value="Gerar currículo">
+
+            <input type="submit" value="GERAR MEU CURRÍCULO">
+
             
 
         </form>
