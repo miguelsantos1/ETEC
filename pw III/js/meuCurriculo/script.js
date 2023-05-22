@@ -38,6 +38,7 @@ const inputAnoInstituicao = document.querySelector("#anoInstituicao")
 const inputInstituicao = document.querySelector("#instituicao")
 const inputHabilidades = document.querySelector("#habilidades")
 const inputIdioma = document.querySelector("#idioma")
+const language = document.querySelector(".idioma")
 
 
 // MOSTRANDO
@@ -51,7 +52,15 @@ inputCargoDesejado.innerHTML = cargoDesejado
 inputAnoInstituicao.innerHTML = `${anoInstituicao} - `
 inputInstituicao.innerHTML = instituicao
 inputHabilidades.innerHTML = habilidades
-inputIdioma.innerHTML = idioma
+
+if ( idioma == "semIdioma" ) {
+
+    language.classList.add("no-display")
+
+} else {
+    inputIdioma.innerHTML = idioma
+}
+
 
 // VERIFICAÇÃO
 
@@ -66,7 +75,6 @@ if ( inputNomeCompleto.innerHTML == "" || inputPhone.innerHTML == "" || inputEma
 
     main.classList.add("no-display")
     print.classList.add("no-display")  
-
     
     warning.classList.remove("no-display")
     
