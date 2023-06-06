@@ -107,3 +107,8 @@ ul {
     color: var(--darkBlue);
     transition: .5s;
 }
+
+.button-content {
+    display: flex;
+    gap: 1rem;
+}

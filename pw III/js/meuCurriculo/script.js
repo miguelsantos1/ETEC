@@ -3,6 +3,12 @@
 function esconderBotao() {
     document.querySelector("#print").style.display = "none";
     window.print()
+
+}
+
+function gerarPDF() {
+    let element = document.getElementById('main')
+    html2pdf(element);
 }
 
 const warning = document.querySelector(".warning")
@@ -54,7 +60,6 @@ inputInstituicao.innerHTML = instituicao
 inputHabilidades.innerHTML = habilidades
 
 if ( idioma == "semIdioma" ) {
-
     language.classList.add("no-display")
 
 } else {
@@ -72,10 +77,16 @@ const print = document.querySelector("#print")
 
 if ( inputNomeCompleto.innerHTML == "" || inputPhone.innerHTML == "" || inputEmail.innerHTML == "" || inputResumo.innerHTML == "" || inputCargoDesejado.innerHTML == "" || inputAnoInstituicao.innerHTML == "" || inputInstituicao.innerHTML == "" || inputHabilidades.innerHTML == "" || inputIdioma.innerHTML == "" ) {
 
-
     main.classList.add("no-display")
     print.classList.add("no-display")  
     
     warning.classList.remove("no-display")
     
+
 }
+
+
+
+
+// PDF
+
