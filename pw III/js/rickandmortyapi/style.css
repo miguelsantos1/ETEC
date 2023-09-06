@@ -13,14 +13,17 @@ body {
 
 header {
     color: rgb(255, 255, 255);
-    background-color: #00ffd948;
+    background-color: #00ffd90f;
     font-weight: 800;
     font-size: 2rem;
     padding: 1rem 0;
     text-align: center;
 
     margin-bottom: 5rem;
+}
 
+header span {
+    font-size: calc(100% - 1.8rem);
 }
 
 header h1 {
@@ -64,6 +67,14 @@ main h2 {
 
     border-radius: 10px;
     font-weight: 600;
+
+    transition: .3s;
+}
+.character:hover {
+    transform: scale(.97);
+    transition: .3s;
+
+    box-shadow:0px 0px 40px #ffffff21;
 }
 
 .character img {
