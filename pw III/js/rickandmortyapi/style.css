@@ -12,7 +12,7 @@ body {
 
 header {
     color: rgb(255, 255, 255);
-    background-color: #00ffd90f;
+    background-color: #00ffd905;
     font-weight: 800;
     font-size: 2rem;
     padding: 1rem 0;
@@ -35,6 +35,31 @@ main {
     width: 100%;
     margin: 0 auto;
 
+}
+
+.filterContent {
+    background-color: rgba(255, 255, 255, 0.035);
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem 1rem;
+    border-radius: 10px;
+    margin: 2rem 2rem 4rem;
+    flex-wrap: wrap;
+
+    display: flex;
+    align-self: center;
+    color: white;
+}
+
+.filterContent a {
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.042);
+    padding: .7rem 3rem;
+    border-radius: 10px;
+    color: white;
+    flex: 1;
+
+    font-weight: 400;
 }
 
 main h2 {
@@ -125,5 +150,10 @@ main h2 {
     main h2 {
         text-align: center;
         margin: 2rem 0;
+    }
+
+    .filterContent a {
+        flex: 1;
+        text-align: center;
     }
 }
