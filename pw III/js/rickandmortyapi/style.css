@@ -132,6 +132,10 @@ main h2 {
     #characters {
         grid-template-columns: repeat(3, 1fr);
     }
+
+    .filterContent a {
+        flex: 1;
+    }
 }
 
 @media (max-width: 800px) {
