@@ -18,6 +18,13 @@ const style = StyleSheet.create({
         marginTop: '2.5vh',
         marginBottom: '2vh'
     },
+    description:{
+        color: '#fff9',
+        fontSize: '1rem',
+        marginLeft: '1rem',
+        marginRight: '1rem',
+        marginBottom: '1rem'
+    },
 })
 
 export default style

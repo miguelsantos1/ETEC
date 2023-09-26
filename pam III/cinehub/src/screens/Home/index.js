@@ -84,6 +84,7 @@ export default function App() {
               imagem={item.poster_path}
               nome={item.title}
               nota={item.vote_average}
+              overview = {item.overview}
               />
               )}
           />
@@ -103,6 +104,7 @@ export default function App() {
               imagem = {item.poster_path}
               nome = {item.name}
               nota = {item.vote_average}
+              overview = {item.overview}
             
             />
 
